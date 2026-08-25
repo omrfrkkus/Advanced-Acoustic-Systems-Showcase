@@ -48,12 +48,14 @@ The initial prototype focused on geometric acoustic treatment, power efficiency,
 
 ---
 
-## 🔩 Manufacturing & Assembly Pipeline
-Both systems were manufactured using strict prototyping tolerances and mechanical isolation techniques.
+## 🔩 Structural Engineering & Manufacturing Pipeline
+Both systems were manufactured with a strict focus on structural integrity, utilizing custom slicing profiles and mechanical isolation techniques.
 
-* **3D Printing:** Sliced and printed using Sunlu PLA+ 2.0 (Black).
-* **Vibration Isolation:** Custom-designed and printed **TPU (Thermoplastic Polyurethane)** feet to decouple the speakers from resting surfaces, preventing rattle.
-* **Waterproofing & Sealing:** The advanced model is fully waterproofed. Assembly utilizes M3 screws and hex nuts, secured with high-density sponge isolation tape (gaskets) and dielectric grease on the mating surfaces to ensure a 100% airtight and watertight acoustic chamber.
+* **Internal Bracing:** Designed custom internal ribbing structures (braces) within the CAD models. This dramatically increases enclosure rigidity, preventing wall-flexing and energy loss under high acoustic pressure.
+* **Custom Slicer Optimization:** Engineered highly specific slicing profiles in Orca Slicer for the Sunlu PLA+ 2.0. Precisely calibrated extrusion multipliers, wall thicknesses, and layer overlaps to guarantee maximum structural durability and a 100% hermetic (air and water-tight) seal.
+* **Extreme Stress Testing:** Prior to electronic assembly, the empty enclosures underwent severe dynamic load testing—successfully withstanding the full dynamic weight of an adult jumping on them without any mechanical deformation, micro-fractures, or seal failures.
+* **Vibration Isolation:** Custom-designed and printed **TPU (Thermoplastic Polyurethane)** feet to decouple the speakers from resting surfaces, preventing external rattle.
+* **Final Sealing:** Assembly utilizes M3 screws and hex nuts, secured with high-density sponge isolation tape (gaskets) and dielectric grease on the mating surfaces to ensure the watertight acoustic chamber remains uncompromised.
 
 ---
 
