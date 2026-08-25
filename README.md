@@ -1,9 +1,7 @@
 # 🔊 Advanced Custom Acoustic Systems — Hardware Showcase
 
 <p align="center">
-  <img src="media/sphere_main.jpg" width="45%" alt="Spherical TWS Speakers" />
-  &nbsp;
-  <img src="media/advanced_main.jpg" width="45%" alt="Compact High-SPL Speaker" />
+  <img src="media/excursion_demo.gif" width="600" alt="High Excursion Drivers in Action" />
 </p>
 
 > **Note:** This repository contains the architectural overviews, DSP tuning strategies, and CAD files (`/stl_files`) for two distinct, fully functional 3D-printed acoustic enclosures I engineered from scratch.
@@ -15,27 +13,10 @@ The primary goal was to overcome complex acoustic challenges (resonance, standin
 
 ---
 
-## 🛠️ Iteration 1: Spherical TWS System (Acoustic Geometry)
-The first iteration focused on geometric acoustic treatment, power efficiency, and wireless synchronization. Built as a paired set for True Wireless Stereo (TWS) operation.
-
-* **Acoustic Design (600ml):** Engineered a spherical closed-box enclosure. The internal walls feature a custom 3D-printed **pyramid diffuser matrix** to break up standing waves and minimize unwanted internal resonance.
-* **Hardware Specs:** Driven by a single 4-ohm 5W full-range driver per unit, powered by a Bluetooth/TWS amplifier with Type-C and AUX inputs.
-* **Power Management:** Operates efficiently on a single 18650 lithium-ion cell per unit, delivering exceptional battery life for long-duration playback.
-
-<p align="center">
-  <img src="media/sphere_cad.jpg" width="45%" alt="Fusion 360 Sphere Model" />
-  &nbsp;
-  <img src="media/sphere_internals.jpg" width="45%" alt="Internal Pyramid Matrix" />
-</p>
-
----
-
 ## 🚀 Iteration 2: High-SPL Waterproof System (DSP & Power)
-The second iteration pushed the limits of small-enclosure acoustics (<1 Liter), focusing on deep low-frequency extension, high current delivery, and weather resistance.
+*(Featured in the demo above)*
 
-<p align="center">
-  <img src="media/excursion_demo.gif" width="500" alt="High Excursion Drivers in Action" />
-</p>
+Pushing the limits of small-enclosure acoustics (<1 Liter), this advanced system focuses on deep low-frequency extension, high current delivery, and weather resistance.
 
 * **Driver Architecture:** Features dual front-firing 4-ohm 11W drivers, physically coupled with a large rear **Passive Radiator** to dramatically extend bass response in a sub-1L volume.
 * **High-Current Power (BMS):** Engineered a 1S2P battery pack using high-drain LG HG2 18650 cells. Integrated a dedicated Battery Management System (BMS) to safely handle the high amperage spikes during heavy bass transients.
@@ -43,9 +24,26 @@ The second iteration pushed the limits of small-enclosure acoustics (<1 Liter), 
 * **Acoustic Dampening:** The internal volume is packed with poly-fill material to artificially increase the acoustic compliance and reduce back-wave reflections.
 
 <p align="center">
-  <img src="media/dsp_tuning.jpg" width="45%" alt="ACPWorkbench DSP Tuning" />
+  <img src="media/advanced_main.jpg" width="45%" alt="Compact High-SPL Speaker" />
   &nbsp;
-  <img src="media/advanced_internals.jpg" width="45%" alt="BMS and Wiring" />
+  <img src="media/dsp_tuning.jpg" width="45%" alt="ACPWorkbench DSP Tuning" />
+</p>
+
+---
+
+## 🛠️ Iteration 1: Spherical TWS System (Acoustic Geometry)
+The initial prototype focused on geometric acoustic treatment, power efficiency, and wireless synchronization. Built as a paired set for True Wireless Stereo (TWS) operation.
+
+* **Acoustic Design (600ml):** Engineered a spherical closed-box enclosure. The internal walls feature a custom 3D-printed **pyramid diffuser matrix** to break up standing waves and minimize unwanted internal resonance.
+* **Hardware Specs:** Driven by a single 4-ohm 5W full-range driver per unit, powered by a Bluetooth/TWS amplifier with Type-C and AUX inputs.
+* **Power Management:** Operates efficiently on a single 18650 lithium-ion cell per unit, delivering exceptional battery life for long-duration playback.
+
+<p align="center">
+  <img src="media/sphere_main.jpg" width="30%" alt="Spherical TWS Speakers" />
+  &nbsp;
+  <img src="media/sphere_cad.jpg" width="30%" alt="Fusion 360 Sphere Model" />
+  &nbsp;
+  <img src="media/sphere_internals.jpg" width="30%" alt="Internal Pyramid Matrix" />
 </p>
 
 ---
