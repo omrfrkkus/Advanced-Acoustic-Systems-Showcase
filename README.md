@@ -39,7 +39,7 @@ The initial prototype focused on geometric acoustic treatment, power efficiency,
 * **Power Management:** Operates efficiently on a single 18650 lithium-ion cell per unit, delivering exceptional battery life for long-duration playback.
 
 <p align="center">
-  <img src="media/sphere_main.jpg" width="30%" alt="Spherical TWS Speakers" />
+  <img src="media/sphere_tws.jpg" width="30%" alt="Spherical TWS Speakers" />
   &nbsp;
   <img src="media/sphere_cad.jpg" width="30%" alt="Fusion 360 Sphere Model" />
   &nbsp;
