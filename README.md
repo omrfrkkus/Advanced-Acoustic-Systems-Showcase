@@ -34,6 +34,8 @@ Pushing the limits of small-enclosure acoustics (<1 Liter), this advanced system
 ## 🛠️ Iteration 1: Spherical TWS System (Acoustic Geometry)
 The initial prototype focused on geometric acoustic treatment, power efficiency, and wireless synchronization. Built as a paired set for True Wireless Stereo (TWS) operation.
 
+> **🖨️ Open Source Hardware:** The STL files and complete build instructions for this model are publicly available on [Printables: Sphere TWS Speakers](https://www.printables.com/model/1825186-sphere-tws-speakers).
+
 * **Acoustic Design (600ml):** Engineered a spherical closed-box enclosure. The internal walls feature a custom 3D-printed **pyramid diffuser matrix** to break up standing waves and minimize unwanted internal resonance.
 * **Hardware Specs:** Driven by a single 4-ohm 5W full-range driver per unit, powered by a Bluetooth/TWS amplifier with Type-C and AUX inputs.
 * **Power Management:** Operates efficiently on a single 18650 lithium-ion cell per unit, delivering exceptional battery life for long-duration playback.
@@ -51,11 +53,11 @@ The initial prototype focused on geometric acoustic treatment, power efficiency,
 ## 🔩 Structural Engineering & Manufacturing Pipeline
 Both systems were manufactured with a strict focus on structural integrity, utilizing custom slicing profiles and mechanical isolation techniques.
 
-* **Internal Bracing:** Designed custom internal ribbing structures (braces) within the CAD models. This dramatically increases enclosure rigidity, preventing wall-flexing and energy loss under high acoustic pressure.
-* **Custom Slicer Optimization:** Engineered highly specific slicing profiles in Orca Slicer for the Sunlu PLA+ 2.0. Precisely calibrated extrusion multipliers, wall thicknesses, and layer overlaps to guarantee maximum structural durability and a 100% hermetic (air and water-tight) seal.
+* **Internal Bracing & Infill:** Designed custom internal ribbing structures within the CAD models. Slicer profiles were optimized using **Gyroid infill** (minimum 4-5 walls) to provide multi-directional structural strength, preventing panel resonance and acoustic energy loss.
 * **Extreme Stress Testing:** Prior to electronic assembly, the empty enclosures underwent severe dynamic load testing—successfully withstanding the full dynamic weight of an adult jumping on them without any mechanical deformation, micro-fractures, or seal failures.
+* **Hermetic Chamber Sealing:** Acoustic performance relies on a strict closed-box system. Internal wire routing holes connecting the acoustic chamber to the electronics bay were hermetically sealed with silicone adhesive. Exterior assembly utilizes M3 screws (threading directly into the plastic for the sphere model), secured with high-density sponge isolation tape (gaskets) and dielectric grease.
+* **Electromechanical Safety:** Strict safety protocols were implemented for power management, including proper BMS integration and spot-welding/soldering procedures to prevent thermal runaway or short circuits in the 18650 lithium-ion cells.
 * **Vibration Isolation:** Custom-designed and printed **TPU (Thermoplastic Polyurethane)** feet to decouple the speakers from resting surfaces, preventing external rattle.
-* **Final Sealing:** Assembly utilizes M3 screws and hex nuts, secured with high-density sponge isolation tape (gaskets) and dielectric grease on the mating surfaces to ensure the watertight acoustic chamber remains uncompromised.
 
 ---
 
