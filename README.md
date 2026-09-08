@@ -29,6 +29,24 @@ Pushing the limits of small-enclosure acoustics (<1 Liter), this advanced system
   <img src="media/dsp_tuning.jpg" width="45%" alt="ACPWorkbench DSP Tuning" />
 </p>
 
+### 🎥 Acoustic Performance & Stress Tests
+Real-world volume, excursion, and dynamic output testing under load:
+
+<p align="center">
+  <a href="https://youtu.be/s3fn8n4pkiM" target="_blank">
+    <img src="https://img.youtube.com/vi/s3fn8n4pkiM/hqdefault.jpg" width="48%" alt="Speaker Project %80 Volume Test" />
+  </a>
+  &nbsp;
+  <a href="https://youtu.be/kctdLXoFfMA" target="_blank">
+    <img src="https://img.youtube.com/vi/kctdLXoFfMA/hqdefault.jpg" width="48%" alt="Speaker Project Max Volume Test" />
+  </a>
+</p>
+
+| Test Video | Test Description | Duration |
+| :--- | :--- | :---: |
+| 🔊 [Speaker Project %80 Volume Test](https://youtu.be/s3fn8n4pkiM) | High dynamic range evaluation measuring bass response, clarity, and driver linearity. | `0:41` |
+| 🔊 [Speaker Project Max Volume Test](https://youtu.be/kctdLXoFfMA) | Full-power stress test verifying BMS surge handling and structural resonance elimination. | `0:20` |
+
 ---
 
 ## 🛠️ Iteration 1: Spherical TWS System (Acoustic Geometry)
@@ -47,6 +65,24 @@ The initial prototype focused on geometric acoustic treatment, power efficiency,
   &nbsp;
   <img src="media/sphere_internals.jpg" width="30%" alt="Internal Pyramid Matrix" />
 </p>
+
+### 🎥 Spherical TWS Acoustic Tests
+Acoustic performance and distortion tests in dual-speaker paired mode:
+
+<p align="center">
+  <a href="https://youtu.be/pdXcFrA3jAQ" target="_blank">
+    <img src="https://img.youtube.com/vi/pdXcFrA3jAQ/hqdefault.jpg" width="48%" alt="Sphere Speaker TWS %70 Volume Test" />
+  </a>
+  &nbsp;
+  <a href="https://youtu.be/vx8ZYlDZn7Q" target="_blank">
+    <img src="https://img.youtube.com/vi/vx8ZYlDZn7Q/hqdefault.jpg" width="48%" alt="Sphere Speaker TWS Max Volume Test" />
+  </a>
+</p>
+
+| Test Video | Test Description | Duration |
+| :--- | :--- | :---: |
+| 🔊 [Sphere Speaker TWS %70 Volume Test](https://youtu.be/pdXcFrA3jAQ) | Mid-high volume clarity test with wireless stereo separation in a 600ml spherical chamber. | `0:56` |
+| 🔊 [Sphere Speaker TWS Max Volume Test](https://youtu.be/vx8ZYlDZn7Q) | Maximum output test assessing enclosure rigidness and passive anti-resonance effectiveness. | `1:01` |
 
 ---
 
