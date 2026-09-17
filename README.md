@@ -18,10 +18,12 @@ The primary goal was to overcome complex acoustic challenges (resonance, standin
 
 Pushing the limits of small-enclosure acoustics (<1 Liter), this advanced system focuses on deep low-frequency extension, high current delivery, and weather resistance.
 
-* **Driver Architecture:** Features dual front-firing 4-ohm 11W drivers, physically coupled with a large rear **Passive Radiator** to dramatically extend bass response in a sub-1L volume.
+> **🖨️ Open Source Hardware:** The STL files, complete BOM, and detailed build instructions for this model are publicly available on [Printables: High-SPL Custom 3D Printed Speaker (DSP Tuned)](https://www.printables.com/model/1845016-custom-3d-printed-speaker-dsp-tuned).
+
+* **Driver Architecture:** Features dual front-firing 4-ohm 11W Neodymium long-stroke drivers, physically coupled with a massive 135x75mm rear **Passive Radiator** to dramatically extend bass response in a sub-1L volume.
 * **High-Current Power (BMS):** Engineered a 1S2P battery pack using high-drain LG HG2 18650 cells. Integrated a dedicated Battery Management System (BMS) to safely handle the high amperage spikes during heavy bass transients.
 * **Digital Signal Processing (DSP):** Powered by a 2x10W amplifier. I utilized **ACPWorkbench** to digitally tune the system, surgically cutting resonant frequencies and applying custom EQ curves to maximize high-fidelity output.
-* **Acoustic Dampening:** The internal volume is packed with poly-fill material to artificially increase the acoustic compliance and reduce back-wave reflections.
+* **Modular Acoustic Dampening:** The internal volume utilizes an adjustable poly-fill dampening system secured via hook-and-loop (Velcro) strips on the inner walls. This allows for rapid physical acoustic tuning (switching between a clinical flat response or maximum punch) without permanent adhesives.
 
 <p align="center">
   <img src="media/advanced_main.jpg" width="45%" alt="Compact High-SPL Speaker" />
@@ -90,10 +92,11 @@ Acoustic performance and distortion tests in dual-speaker paired mode:
 Both systems were manufactured with a strict focus on structural integrity, utilizing custom slicing profiles and mechanical isolation techniques.
 
 * **Internal Bracing & Infill:** Designed custom internal ribbing structures within the CAD models. Slicer profiles were optimized using **Gyroid infill** (minimum 4-5 walls) to provide multi-directional structural strength, preventing panel resonance and acoustic energy loss.
-* **Extreme Stress Testing:** Prior to electronic assembly, the empty enclosures underwent severe dynamic load testing—successfully withstanding the full dynamic weight of an adult jumping on them without any mechanical deformation, micro-fractures, or seal failures.
-* **Hermetic Chamber Sealing:** Acoustic performance relies on a strict closed-box system. Internal wire routing holes connecting the acoustic chamber to the electronics bay were hermetically sealed with silicone adhesive. Exterior assembly utilizes M3 screws (threading directly into the plastic for the sphere model), secured with high-density sponge isolation tape (gaskets) and dielectric grease.
+* **Hermetic Chamber Sealing:** Acoustic performance relies on a strict closed-box system. To guarantee a 100% airtight seal for the passive radiator and drivers, the top mating layers were printed utilizing a slicer **"Ironing"** pass to create a glass-flat surface. External assemblies are secured with M3 screws, EVA foam isolation tape (gaskets), and dielectric grease. Internal wire routing holes connecting the acoustic chamber to the electronics bay were hermetically sealed with adhesive.
+* **Internal Rattle Prevention:** To prevent internal wiring from vibrating against the plastic walls during high SPL output, all cables were wrapped in automotive fleece tape and secured directly to the chassis.
 * **Electromechanical Safety:** Strict safety protocols were implemented for power management, including proper BMS integration and spot-welding/soldering procedures to prevent thermal runaway or short circuits in the 18650 lithium-ion cells.
-* **Vibration Isolation:** Custom-designed and printed **TPU (Thermoplastic Polyurethane)** feet to decouple the speakers from resting surfaces, preventing external rattle.
+* **Vibration Isolation:** Designed and printed custom **TPU (Thermoplastic Polyurethane)** feet to decouple the speakers from resting surfaces, preventing external rattle and acoustic coloration.
+* **Extreme Stress Testing:** Prior to electronic assembly, the empty enclosures underwent severe dynamic load testing—successfully withstanding the full dynamic weight of an adult jumping on them without any mechanical deformation, micro-fractures, or seal failures.
 
 ---
 
