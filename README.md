@@ -63,7 +63,7 @@ The initial prototype focused on geometric acoustic treatment, power efficiency,
 <p align="center">
   <img src="media/sphere_tws.jpg" width="30%" alt="Spherical TWS Speakers" />
   &nbsp;
-  <img src="media/sphere_cad.jpg" width="30%" alt="Fusion 360 Sphere Model" />
+  <img src="media/sphere_inside.jpg" width="30%" alt="Sphere Model" />
   &nbsp;
   <img src="media/sphere_internals.jpg" width="30%" alt="Internal Pyramid Matrix" />
 </p>
