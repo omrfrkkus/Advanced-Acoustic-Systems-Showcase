@@ -25,12 +25,18 @@ Pushing the limits of small-enclosure acoustics (<1 Liter), this advanced system
 * **Digital Signal Processing (DSP):** Powered by a 2x10W amplifier. I utilized **ACPWorkbench** to digitally tune the system, surgically cutting resonant frequencies and applying custom EQ curves to maximize high-fidelity output.
 * **Modular Acoustic Dampening:** The internal volume utilizes an adjustable poly-fill dampening system secured via hook-and-loop (Velcro) strips on the inner walls. This allows for rapid physical acoustic tuning (switching between a clinical flat response or maximum punch) without permanent adhesives.
 
+### 📸 Hardware & Architecture Gallery
 <p align="center">
-  <img src="media/advanced_main.jpg" width="30%" alt="Compact High-SPL Speaker" />
+  <img src="media/advanced_front.jpg" width="32%" alt="High-SPL Front View" />
   &nbsp;
-  <img src="media/advanced_side.jpg" width="30%" alt="High-SPL Side Profile" />
+  <img src="media/advanced_side.jpg" width="32%" alt="High-SPL Side Profile" />
   &nbsp;
-  <img src="media/advanced_inside.png" width="30%" alt="Internal CAD Architecture" />
+  <img src="media/advanced_back.jpg" width="32%" alt="High-SPL Rear Passive Radiator" />
+</p>
+<p align="center">
+  <img src="media/advanced_inside.png" width="48%" alt="Internal CAD Architecture" />
+  &nbsp;
+  <img src="media/advanced_inside_real.jpg" width="48%" alt="Real Internal Wiring & Dampening" />
 </p>
 
 ### 🎥 Acoustic Performance & Stress Tests
@@ -62,12 +68,16 @@ The initial prototype focused on geometric acoustic treatment, power efficiency,
 * **Hardware Specs:** Driven by a single 4-ohm 5W full-range driver per unit, powered by a Bluetooth/TWS amplifier with Type-C and AUX inputs.
 * **Power Management:** Operates efficiently on a single 18650 lithium-ion cell per unit, delivering exceptional battery life for long-duration playback.
 
+### 📸 Hardware & Architecture Gallery
 <p align="center">
-  <img src="media/sphere_tws.jpg" width="30%" alt="Spherical TWS Speakers" />
+  <img src="media/sphere_tws.jpg" width="48%" alt="Spherical TWS Speakers" />
   &nbsp;
-  <img src="media/sphere_side.jpg" width="30%" alt="Sphere Side Profile" />
+  <img src="media/sphere_side.jpg" width="48%" alt="Sphere Side Profile" />
+</p>
+<p align="center">
+  <img src="media/sphere_back.jpg" width="48%" alt="Sphere Rear Ports" />
   &nbsp;
-  <img src="media/sphere_inside.png" width="30%" alt="Internal Architecture" />
+  <img src="media/sphere_inside.png" width="48%" alt="Internal Pyramid Matrix CAD" />
 </p>
 
 ### 🎥 Spherical TWS Acoustic Tests
