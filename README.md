@@ -18,7 +18,7 @@ The primary goal was to overcome complex acoustic challenges (resonance, standin
 
 Pushing the limits of small-enclosure acoustics (<1 Liter), this advanced system focuses on deep low-frequency extension, high current delivery, and weather resistance.
 
-> **🖨️ Open Source Hardware:** The STL files, complete BOM, and detailed build instructions for this model are publicly available on [Printables: High-SPL Custom 3D Printed Speaker (DSP Tuned)](https://www.printables.com/model/1845016-custom-3d-printed-speaker-dsp-tuned).
+> **🖨️ Open Source Hardware:** The STL files, complete BOM, and detailed build instructions for this model are publicly available on [Printables: High-SPL Custom 3D Printed Speaker (DSP Tuned)](https://www.printables.com/model/1845016-3d-printed-speaker-dsp-tuned).
 
 * **Driver Architecture:** Features dual front-firing 4-ohm 11W Neodymium long-stroke drivers, physically coupled with a massive 135x75mm rear **Passive Radiator** to dramatically extend bass response in a sub-1L volume.
 * **High-Current Power (BMS):** Engineered a 1S2P battery pack using high-drain LG HG2 18650 cells. Integrated a dedicated Battery Management System (BMS) to safely handle the high amperage spikes during heavy bass transients.
@@ -26,9 +26,11 @@ Pushing the limits of small-enclosure acoustics (<1 Liter), this advanced system
 * **Modular Acoustic Dampening:** The internal volume utilizes an adjustable poly-fill dampening system secured via hook-and-loop (Velcro) strips on the inner walls. This allows for rapid physical acoustic tuning (switching between a clinical flat response or maximum punch) without permanent adhesives.
 
 <p align="center">
-  <img src="media/advanced_main.jpg" width="45%" alt="Compact High-SPL Speaker" />
+  <img src="media/advanced_main.jpg" width="30%" alt="Compact High-SPL Speaker" />
   &nbsp;
-  <img src="media/dsp_tuning.jpg" width="45%" alt="ACPWorkbench DSP Tuning" />
+  <img src="media/advanced_side.jpg" width="30%" alt="High-SPL Side Profile" />
+  &nbsp;
+  <img src="media/advanced_inside.png" width="30%" alt="Internal CAD Architecture" />
 </p>
 
 ### 🎥 Acoustic Performance & Stress Tests
@@ -63,9 +65,9 @@ The initial prototype focused on geometric acoustic treatment, power efficiency,
 <p align="center">
   <img src="media/sphere_tws.jpg" width="30%" alt="Spherical TWS Speakers" />
   &nbsp;
-  <img src="media/sphere_inside.png" width="30%" alt="Sphere Model" />
+  <img src="media/sphere_side.jpg" width="30%" alt="Sphere Side Profile" />
   &nbsp;
-  <img src="media/sphere_internals.jpg" width="30%" alt="Internal Pyramid Matrix" />
+  <img src="media/sphere_inside.png" width="30%" alt="Internal Architecture" />
 </p>
 
 ### 🎥 Spherical TWS Acoustic Tests
